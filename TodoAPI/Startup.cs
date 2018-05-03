@@ -16,6 +16,7 @@ namespace TodoAPI
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            //Todo 1 
         }
 
         public IConfiguration Configuration { get; }
